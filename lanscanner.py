@@ -35,7 +35,7 @@ def printing(results):
     print("__________________________________________________\n" +  ".......scanning Completed-Meet You Next Time......")
 
 ip_range = option_maker()
-answered = send_packet("192.168.43.1/24")
+answered = send_packet(ip_range)
 printing(answered)
 
 
